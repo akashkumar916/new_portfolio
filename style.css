@@ -429,3 +429,105 @@ footer p {
 #skills-container {
   margin: 50px;
 }
+
+
+
+@media (max-width: 770px) {
+  nav {
+    justify-content: space-between;
+  }
+
+  #about {
+    margin-top: 150 px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .about-containers {
+    flex-direction: column;
+  }
+  #hamburger-nav {
+    display: block;
+  }
+
+  section {
+    margin: 0 2rem;
+  }
+
+  .section-container {
+    flex-direction: column;
+  }
+  .details-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .section__pic-container {
+    height: 300px;
+    width: 300px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .experience-sub-title,
+  .section__text__p2 {
+    font-size: 1.5rem;
+  }
+  #contact {
+    margin-top: 100px;
+  }
+  #projects {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 450px) {
+  nav {
+    height: 10vh;
+  }
+  #about {
+    margin-top: 150px;
+  }
+  .experience-details-container {
+    flex-direction: column;
+  }
+  .about-containers {
+    flex-direction: column;
+  }
+  .section__pic-container {
+    height: 200px;
+    width: 200px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .details-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .experience-sub-title,
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+
+  section {
+    margin: 0 1rem;
+  }
+
+  .section-container {
+    gap: 2rem;
+  }
+
+  #projects {
+    margin-top: 100px;
+  }
+
+  #contact {
+    margin-top: 100px;
+  }
+}
