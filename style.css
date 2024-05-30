@@ -531,3 +531,35 @@ footer p {
     margin-top: 100px;
   }
 }
+
+/* CSS for the tech table */
+.tech-table {
+  width: 100%;
+  border-collapse: separate; /* Change to separate to allow spacing */
+  border-spacing: 5px; /* Add space between the columns */
+  margin-top: 1rem;
+}
+
+.tech-table td {
+  border: 1px solid #ccc;
+  padding: 0.4rem; /* Add padding for better spacing inside cells */
+  text-align: center;
+  background-color: #f9f9f9; /* Optional: Add background color for better visibility */
+}
+
+@media (max-width: 600px) {
+  .tech-table {
+    width: 100%;
+  }
+
+  .tech-table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .tech-table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
