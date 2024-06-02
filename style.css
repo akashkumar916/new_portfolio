@@ -373,9 +373,17 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  margin-top: 800px; 
+   
 }
 
+#certification {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  margin-top: 200px;
+   
+}
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
